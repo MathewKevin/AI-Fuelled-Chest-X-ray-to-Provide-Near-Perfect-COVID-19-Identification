@@ -9,3 +9,4 @@ tensorflow>=2.2.0
 matplotlib==3.0.2
 Werkzeug==0.15.5
 gevent==1.2.2
+setuptools==0.7.3

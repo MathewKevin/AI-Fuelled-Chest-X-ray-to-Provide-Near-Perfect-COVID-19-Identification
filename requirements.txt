@@ -1,10 +1,6 @@
-Werkzeug
-Flask
+Flask==1.0.2
+Pillow==5.4.1
 numpy
-pillow
-h5py
-gunicorn==19.9.0
-MarkupSafe==1.1.1
-itsdangerous==1.1.0
-Jinja2==2.10.1
-tensorflow
+scikit-learn==0.20.2
+tensorflow>=2.0.0
+gunicorn

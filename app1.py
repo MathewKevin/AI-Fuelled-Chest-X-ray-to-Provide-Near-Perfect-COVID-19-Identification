@@ -9,7 +9,7 @@ import re
 
 img_size=75
 
-app1 = Flask(__name__) 
+app = Flask(__name__) 
 
 model=load_model('model/covid_model.model')
 
@@ -29,11 +29,11 @@ def preprocess(img):
 	reshaped=resized.reshape(1,img_size,img_size)
 	return reshaped
 
-@app1.route("/")
+@app.route("/")
 def index():
 	return(render_template("index.html"))
 
-@app1.route("/predict", methods=["POST"])
+@app.route("/predict", methods=["POST"])
 def predict():
 	print('HERE')
 	message = request.get_json(force=True)
@@ -57,6 +57,6 @@ def predict():
 
 	return jsonify(response)
 
-app1.run(debug=True)
+app.run(debug=True)
 
 #<img src="" id="img" crossorigin="anonymous" width="400" alt="Image preview...">

@@ -7,7 +7,7 @@ from PIL import Image
 import io
 import re
 
-img_size=100
+img_size=75
 
 app1 = Flask(__name__) 
 

@@ -10,5 +10,5 @@ This is a deep learning project where we use X-ray images to detect whether a pe
 ![Model 2 Confusion Matrix](https://user-images.githubusercontent.com/53637541/126764157-3401f739-3188-4de0-82dd-b8ccc1041d84.png)
 ### Model 3 Confusion Matrix
 ![Model 3 Confusion Matrix](https://user-images.githubusercontent.com/53637541/126764158-1d0bfa6b-4816-401c-b79c-0583a5bbb582.png)
-### Model 4 (![Model 4(Deployed) Confusion Matrix](https://user-images.githubusercontent.com/53637541/126765478-e5c9cf0b-2bb5-448a-a8a3-a3b4d2f77d1b.png)
-Deployed) Confusion Matrix
+### Model 4(Deployed) Confusion Matrix
+![Model 4(Deployed) Confusion Matrix](https://user-images.githubusercontent.com/53637541/126765529-e6c4c69b-c34f-479c-b57b-842de424fff3.png)
